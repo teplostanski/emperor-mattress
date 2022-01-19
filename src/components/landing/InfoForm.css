@@ -1,0 +1,71 @@
+@font-face {
+  src: url(../../fonts/Roboto.woff);
+  font-family: Roboto;
+}
+
+
+.infoForm-container {
+  margin-top: 62px;
+}
+
+.infoForm-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+.infoForm-form {
+  display: flex;
+  justify-content: center;
+}
+.infoForm-button {
+	background-color: #53A8F6;
+	border-radius: 6px;
+	border: none;
+	cursor:pointer;
+	color: white;
+	font-family: Roboto, sans-serif;
+  font-size: 16px;
+	padding: 14px 40px;
+  text-decoration:none;
+  transition: opacity .3s;
+}
+
+.infoForm-button:hover {
+	opacity: .8;
+}
+.infoForm-button:active {
+	position: relative;
+	top: 1px;
+}
+.infoForm-input {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    width: 496px;
+    height: 48px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    font-family: inherit;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+    line-height: 1.5;
+  }

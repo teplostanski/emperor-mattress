@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Roboto Condenced';
+    src: url(../../fonts/Robotocondensed.woff) format('woff');
+}
+
+.header-title {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Roboto Condenced', sans-serif;
+    max-width: 220px;
+    margin: 0 auto 58px;
+    text-transform: uppercase;
+}
+
+
+
+
